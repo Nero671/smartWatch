@@ -1,0 +1,181 @@
+@media screen and (max-width: 1350px)  {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1225px)  {
+  .container {
+    width: 100%;
+  }
+  .clock {
+    left: 60%;
+  }
+}
+
+@media screen and (max-width: 1200px)  {
+  .container {
+    width: 100%;
+  }
+  .features__title {
+    font-size: 16px;
+  }
+  .features__title_oppos {
+    font-size: 16px;
+  }
+  .features__text {
+    font-size: 14px;
+  }
+  .features__item:nth-child(2) {
+    margin-left: 20px;
+    width: 10%;
+  }
+  .clock {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1115px)  {
+  .container {
+    width: 100%;
+  }
+  .gallery__icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px)  {
+  .container {
+    width: 100%;
+  }
+  .features {
+    padding: 0px;
+  }
+  .features__item {
+    float: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin:  0 auto;
+  }
+  .features__title {
+    padding: 0px;
+  }
+  .features__text {
+    margin-top: 10px;
+  }
+  .features__title:after {
+    display: none;
+  }
+  .features__title_oppos::before {
+    display: none;
+  }
+  .features__item:nth-child(2){
+    width: 100%;
+    margin-top: 50px;
+  }
+  .features__item:last-child {
+    float: none;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .adv__item {
+    width: 100%;
+    float: none;
+    margin-top: 50px;
+  }
+  .components__title {
+    font-size: 16px;
+  }
+  .components__text {
+    font-size: 14px;
+  }
+  .gallery {
+    width: 100%;
+  }
+  .contacts__item:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px)  {
+  .container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .issue {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px)  {
+  .container {
+    width: 100%;
+  }
+  .logo__item {
+    height: 100px;
+  }
+  .logo__title {
+    display: none;
+  }
+  .logo__text {
+    display: none;
+  }
+  .bar {
+    margin: 0px;
+    margin-top: 10px;
+  }
+  .sub__input {
+    width: 200px;
+  }
+  .issue__input {
+    display: block;
+    width: 100%;
+  }
+  .issue__input:nth-child(2) {
+    margin: 0px;
+  }
+  .components__title {
+    font-size: 14px;
+  }
+  .components__text {
+    font-size: 12px;
+  }
+  .header {
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 415px)  {
+  .container {
+    width: 100%;
+  }
+  .adv__text {
+    width: 100%;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .act {
+    width: 150px;
+    font-size: 16px;
+  }
+  .issue__btn {
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .copirite__nav {
+    display: none;
+  }
+  .middle {
+    padding-left: 70px;
+  }
+}
